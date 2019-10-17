@@ -12,10 +12,11 @@ header{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
 }
 ul li{
     display: inline-block;
+    padding-top: 10pt;
+    padding-right: 10pt;
 }
 ul li a{
     text-decoration: none;
@@ -49,7 +50,7 @@ ul li.active a{
 }
 .title h1{
     color: white;
-    font-size: 70px;
+    font-size: 5vw;
 }
 .button{
     position: absolute;
@@ -69,3 +70,22 @@ ul li.active a{
     color: black;
 }
 
+@media screen and (max-width:800px) {
+    header{
+        width:100%;
+    }
+    .logo img{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 470px){
+    .btn{
+        width: 20%;
+        padding: 5pt 15pt;
+    }
+    .title h1{
+        font-size: 50px;
+    }
+}

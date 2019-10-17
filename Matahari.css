@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
+.logo img {
+    float: left;
+    width: 15%;
+    height: auto;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+.textbox{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 55%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.textbox img{
+    width :70%;
+    padding-left: 200px;
+}
+.textbox h1{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #007bff;
+    text-align: center;
+}
+.desc{
+    font-size: 14px;
+    text-align: justify;
+    color:black;
+    margin-top: 5px;
+}
+.Review span{
+    float: right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+@media screen and (max-width:400px){
+    .textbox{
+        width:380px;
+        height:400px;
+        margin-top:30px;
+    }
+    .texbox h1{
+        font-size: 12px;
+    }
+    .textbox img{
+        height:auto;
+        padding-left: 100px;
+    }
+    .logo img{
+        width:30%;
+    }
+    ul li{
+        padding-right:7px;
+    }
+    ul li a{
+        padding:0px 5px;
+    }
+}

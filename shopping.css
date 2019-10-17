@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
+.logo img {
+    float: left;
+    width: 15%;
+    height: auto;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.box{
+    width: 1200px;
+    height: 450px;
+    background-color: #000000b3;
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+h1{
+    margin: 0px;
+    padding-top:0px;
+    text-align: center;
+    font-size: 22px;
+}
+.shopping{
+    height: 160px;
+    width:200px;
+    padding:10px;
+    margin-top: 70px;
+    background-color: #fff;
+    float:left;
+    margin:10px;
+}
+.shopping img{
+    width :100%;
+}
+.shopping h2{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #007bff;
+    text-align: center;
+}
+@media screen and (max-width:400px){
+    .box{
+        width:380px;
+        height:400px;
+        margin-top:30px;
+    }
+    .logo img{
+        width:30%;
+    }
+    ul li{
+        padding-right:7px;
+    }
+    ul li a{
+        padding:0px 5px;
+    }
+    .avatar{
+        top:-10%;
+    }
+    h1{
+        font-size:15 px;
+        padding: 0 0 0px;
+    }
+    .wisata{
+        width:180px;
+        height:150;
+        margin-left:0px;
+    }
+}

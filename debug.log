@@ -1,0 +1,28 @@
+[1008/225921.823:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/225921.823:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/230026.309:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/230026.309:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/230053.768:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/230053.768:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/230137.207:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/230137.207:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/230352.805:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/230352.805:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/230529.631:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/230529.631:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/231223.027:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/231223.027:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1008/235114.518:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1008/235114.533:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1009/135208.093:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1009/135208.108:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1009/135211.445:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1009/135211.445:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1009/135213.608:ERROR:file_io.cc(89)] ReadExactly: expected 11256, observed 0
+[1009/135213.609:ERROR:crash_report_database_win.cc(445)] failed to read records
+[1015/231111.589:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/231111.589:ERROR:process_info.cc(359)] UncheckedAllocate
+[1015/231112.293:ERROR:process_info.cc(359)] UncheckedAllocate
+[1016/223137.442:ERROR:process_info.cc(359)] UncheckedAllocate
+[1017/112923.802:ERROR:process_info.cc(359)] UncheckedAllocate
+[1017/112942.887:ERROR:process_info.cc(359)] UncheckedAllocate

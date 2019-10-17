@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("background.jpg");
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;
+}
+.main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+.main ul li a:hover{
+    background-color: yellow;
+    color: black;
+}
+.main ul li.active a{
+    background-color: yellow;
+    color: black;
+}
+.logo img{
+    float: left;
+    height: auto;
+}
+.box {
+    width: 610px;
+    height: 600px;
+    background-color: #000000b3;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -35%);
+    left: 50%;
+    top: 50%;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+.box h2{
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box h4{
+    text-align: left;
+    font-weight: 100;
+}
+@media screen and (max-width: 600px){
+    ul li a{
+        padding: 7px 15px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .main ul li a{
+        padding: 4px 8px;
+        font-size: 15px;
+    }
+    .box{
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+    }
+}
