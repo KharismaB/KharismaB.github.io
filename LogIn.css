@@ -78,21 +78,43 @@ h1{
     color: white;
     font-size: 16px;
 }
-.box input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background-color: pink;
-    color: black;
+button a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+button{
+    background-color: darkblue;
     font-size: 18px;
-    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: yellow;
+    color:black;
     transition: 0.3s ease;
-}
-.box input[type="submit"]:hover{
     cursor: pointer;
-    background-color: #ffc107;
-    color: white;
 }
+/*.box input[type="submit"]{*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    height: 40px;*/
+/*    background-color: pink;*/
+/*    color: black;*/
+/*    font-size: 18px;*/
+/*    border-radius: 20px;*/
+/*    transition: 0.3s ease;*/
+/*}*/
+/*.box input[type="submit"]:hover{*/
+/*    cursor: pointer;*/
+/*    background-color: #ffc107;*/
+/*    color: white;*/
+/*}*/
 .box a{
     text-decoration: none;
     font-size: 12px;
