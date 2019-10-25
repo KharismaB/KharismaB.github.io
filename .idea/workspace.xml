@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1779ccdf-963c-4057-9f72-c67b1edb4664" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/LogIn.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matahari.css" beforeDir="false" afterPath="$PROJECT_DIR$/Matahari.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Matahari.html" beforeDir="false" afterPath="$PROJECT_DIR$/Matahari.html" afterDir="false" />
     </list>
@@ -63,7 +61,7 @@
       <workItem from="1571313824289" duration="100000" />
       <workItem from="1571315069726" duration="852000" />
       <workItem from="1571925480971" duration="1043000" />
-      <workItem from="1571968808111" duration="10949000" />
+      <workItem from="1571968808111" duration="11278000" />
     </task>
     <servers />
   </component>
