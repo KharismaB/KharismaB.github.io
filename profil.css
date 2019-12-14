@@ -51,16 +51,35 @@ ul li.active a{
 }
 
 .profil-card{
+    margin-top: 100px;
+    margin-left: 500px;
     width: 400px;
-    margin: auto;
     background: black;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
 }
 h2{
-    color: white;
+    color: royalblue;
+    position: absolute;
+    top: 410px;
+    left: 510px;
 }
 p{
     color: white;
+    font-family: Calibri;
+    letter-spacing: 1px;
 }
-.image-container{
+.icon{
+    margin-right: 12px;
+}
+.main-container{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+p img{
+    width: 18px;
+
+}
+.image-container img{
+    width: 400px;
 }
