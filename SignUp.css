@@ -129,21 +129,26 @@ h4{
 }
 @media screen and (max-width:400px){
     .box{
+        padding-top: 15%;
         width:240px;
         height: 350px;
-        margin-top:50px;
+        margin-top:15%;
     }
     .logo img{
-        width:30%;
+        width:40%;
+        margin-left: 35%;
     }
     ul li{
-        padding-right:7px;
+        padding-right: 10px;
+        font-size: small;
     }
     ul li a{
-        padding:0px 5px;
+        padding:5px 5px;
     }
     .avatar{
         top:-10%;
+        width: 35%;
+        margin-left: 5%;
     }
     h1{
         font-size:17px;
@@ -151,10 +156,5 @@ h4{
     }
     .box input{
         margin-bottom:10px;
-    }
-    .box input[type="submit"]{
-        height:25px;
-        margin-top:10px;
-        font-size:15px;
     }
 }

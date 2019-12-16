@@ -97,21 +97,6 @@ button:hover{
     transition: 0.3s ease;
     cursor: pointer;
 }
-/*.box input[type="submit"]{*/
-/*    border: none;*/
-/*    outline: none;*/
-/*    height: 40px;*/
-/*    background-color: pink;*/
-/*    color: black;*/
-/*    font-size: 18px;*/
-/*    border-radius: 20px;*/
-/*    transition: 0.3s ease;*/
-/*}*/
-/*.box input[type="submit"]:hover{*/
-/*    cursor: pointer;*/
-/*    background-color: #ffc107;*/
-/*    color: white;*/
-/*}*/
 .box a{
     text-decoration: none;
     font-size: 12px;
@@ -132,27 +117,51 @@ button:hover{
         width: auto;
     }
     .box{
-        width: auto;
-        height: auto;
+        width: 200px;
+        height: 300px;
+        margin-top: 7%;
+        padding-top: 7%;
     }
+    .box img{
+        width: 80px;
+        margin-left: 6%;
+    }
+    h1{
+        font-size: medium;
+    }
+    #name{
+        font-size: small;
+    }
+    #password{
+        font-size: small;
+    }
+    button{
+        font-size: small;
+        margin-left: 25%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
     ul li a {
-        font-size: 15px;
+        font-size: small;
         padding: 4px 10px;
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: 6px;
+        margin-left: 2px;
     }
     .logo img{
-        width: auto;
+        width: 40%;
+        margin-left: 32%;
     }
     .box{
-        width: auto;
-        height: auto;
-        top: 55%;
+        width: 200px;
+        height: 260px;
+        margin-top: 10%;
+        padding-top: 12%;
     }
     h1{
-        font-size: 17px;
+        font-size: small;
     }
 }

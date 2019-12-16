@@ -89,3 +89,22 @@ ul li.active a{
         font-size: 50px;
     }
 }
+@media screen and (max-width: 384px){
+    .button{
+        position: absolute;
+        top: 65%;
+        font-size: small;
+    }
+    ul li{
+        display: grid;
+        position: relative;
+        font-size: small;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .logo img{
+        width: 50%;
+        margin-left: 10%;
+    }
+}
