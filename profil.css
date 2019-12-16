@@ -46,14 +46,14 @@ ul li.active a{
 .container{
     display: inline-block;
     float: right;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
 }
 
 .profil-card{
     margin-top: 100px;
     margin-left: 500px;
-    width: 400px;
+    width: 408px;
     background: grey;
     box-shadow: 10px 10px 5px black;
 }
@@ -73,7 +73,7 @@ p{
 }
 .main-container{
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-bottom: 15px;
 }
 p img{
@@ -81,5 +81,5 @@ p img{
 
 }
 .image-container img{
-    width: 400px;
+    width: 408px;
 }

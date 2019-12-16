@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Signup.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +74,9 @@
       <workItem from="1571925480971" duration="1043000" />
       <workItem from="1571968808111" duration="11278000" />
       <workItem from="1576120061979" duration="3588000" />
-      <workItem from="1576328135634" duration="5630000" />
+      <workItem from="1576328135634" duration="6003000" />
+      <workItem from="1576420191464" duration="640000" />
+      <workItem from="1576505924994" duration="5423000" />
     </task>
     <servers />
   </component>
@@ -93,5 +95,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576506284548">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576506284548" />
   </component>
 </project>

@@ -27,6 +27,8 @@
         </div>
     </div>
     <div class="main-container">
+        <p>Change profil photo:  <input type="file"></p>
+        </br>
         <p><img src="name_48px.png" class="icon">Kharisma Brilliant</p>
         </br>
         <p><img src="email.png" class="icon">Kharismabrilliant@gmail.com</p>
@@ -35,5 +37,15 @@
         <hr>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('input[type="file"]').change(function(e){
+            var fileName = e.target.files[0].name;
+            alert('The file "' + fileName +  '" has been selected.');
+        });
+    });
+</script>
+
 </body>
 </html>
